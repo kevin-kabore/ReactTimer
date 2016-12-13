@@ -34,6 +34,6 @@ describe('Countdown', () => {
         expect(countdown.state.count).toBe(0);
         done()
       }, 3001)
+    })
   })
-})
 })
